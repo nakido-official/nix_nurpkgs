@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://github.com/sinelaw/fresh/releases/download/v${version}/fresh-editor-x86_64-unknown-linux-gnu.tar.xz";
-    hash = "sha256-PnC9RNR54hCWTOUajAugBSGg0KxbQSpLKfoF5R4cnmc=";
+    hash = "sha256-cw15MuN05IDqBgjVJulogpyJl1/J6kWUDVTtlKtPDMA=";
   };
 
   nativeBuildInputs = [
